@@ -1,0 +1,24 @@
+{
+  "name": "multidrive",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Manage multiple google drive accounts in a single app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flemse/multidrive"
+  },
+  "keywords": [
+    "google",
+    "drive"
+  ],
+  "author": "flemse",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/flemse/multidrive/issues"
+  },
+  "homepage": "https://github.com/flemse/multidrive"
+}
