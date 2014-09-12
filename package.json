@@ -3,8 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "description": "Manage multiple google drive accounts in a single app",
-  "main": "index.js",
+  "main": "index.html",
+  "node-main": "backend.js",
+  "window": {
+    "toolbar": true
+  },
   "scripts": {
+    "start": "nodewebkit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,9 +21,11 @@
     "drive"
   ],
   "author": "flemse",
-  "license": "none",
   "bugs": {
     "url": "https://github.com/flemse/multidrive/issues"
   },
-  "homepage": "https://github.com/flemse/multidrive"
+  "homepage": "https://github.com/flemse/multidrive",
+  "dependencies": {
+    "googleapis": "^1.0.12"
+  }
 }
