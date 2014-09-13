@@ -1,0 +1,12 @@
+{
+  "name": "multidrive",
+  "version": "0.0.0",
+  "homepage": "https://github.com/flemse/multidrive",
+  "authors": [
+    "Flemming Thesbjerg <flemming.thesbjerg@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
